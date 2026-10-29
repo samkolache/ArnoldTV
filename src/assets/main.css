@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+@theme {
+  --background-color-canvas: #f1f3f6;
+  --background-color-surface: #FFFFFF;
+  --background-color-sunken: #E6E9EF;
+  --background-color-inverse: #22293A;
+
+  --text-color-primary: #22293a;
+  --text-color-secondary: #5b6478;
+  --text-color-disabled: #9aa3b4;
+  --text-color-on-inverse: #ffffff;
+  --text-color-link: #4f6d9e;
+
+  --border-color-subtle: #d5dae3;
+  --border-color-strong: #9aa3b4;
+  --border-color-focus: #4f6d9e40;
+
+  --color-action-primary: #4f6d9e;
+  --color-action-primary-hover: #415b86;
+  --color-action-primary-pressed: #34496b;
+  --color-action-soft: #dce3ee;
+  --color-action-disabled: #e6e9ef;
+
+  --color-highlight-pop: #d9b26f;
+  --color-highlight-pop-soft: #f6ebd7;
+  --color-highlight-pop-text: #8a6a2e;
+
+  --color-status-success-bg: #e1f1e8;
+  --color-status-success: #3e9a6a;
+  --color-status-success-text: #2b6b4a;
+  --color-status-warning-bg: #fbefd6;
+  --color-status-warning: #d49a2a;
+  --color-status-warning-text: #8a5a10;
+  --color-status-error-bg: #fbe6e3;
+  --color-status-error: #c9473a;
+  --color-status-error-text: #8e2a21;
+  --color-status-neutral: #5b6478;
+}
